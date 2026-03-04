@@ -4,7 +4,7 @@ services:
     ports:
       - "4000:4000"
     volumes:
-      -.:/app
+      - .:/app
     environment:
       - FLASK_ENV=development
     
@@ -23,7 +23,7 @@ services:
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U admin -d nota-fiscal-python"]
       interval: 10s
-      timeout: 5
+      timeout: "5"
       retries: 5
 
     deploy:
