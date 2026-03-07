@@ -13,8 +13,6 @@ ambas as portas estão sujeitas as mudanças
 Pode ser necessário criar ambiente virtual ou venv
 
 
-
-
 # No Windows/macOS/Linux
 python -m venv venv
 
@@ -28,3 +26,11 @@ python -m venv venv
 pip install fastapi uvicorn[standard] pydantic[email] sqlalchemy alembic psycopg2-binary python-dotenv
 
 pip install erpbrasil.base==2.4.1 nfelib==2.5.1
+caso queiram programar algo em específico EX.:
+
+Quero criar as entidades do banco na pasta Entity.
+por boas práticas de Clean Code e Clean Architecture, criar branch com a seguinte nomenclatura:
+
+01-oque-voce-está-implementando-ou-testando
+
+e seguindo a numeração crescente exemplo: branch 01, branch 02 e assim por diante!
