@@ -22,7 +22,7 @@ python -m venv venv
 # Se for windows - ativação - no terminal rodar esse comando
 .\.venv\Scripts\activate.bat
 
-
+---------------------------------------------------------------------------------------------------------------
 pip install fastapi uvicorn[standard] pydantic[email] sqlalchemy alembic psycopg2-binary python-dotenv
 
 pip install erpbrasil.base==2.4.1 nfelib==2.5.1
